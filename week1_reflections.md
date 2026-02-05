@@ -1,0 +1,2 @@
+Inheritance is the concept that describes how subclasses are created. These subclasses receive variables and methods from their parent class, and you can also implement new variables and methods within those subclasses.
+One example of inheritance would be if you wanted to make classes for animals. You can't just make "animal" because that is a concept. However, you can make a general animal class with traits that animals share and then make inherited classes for specific animals.

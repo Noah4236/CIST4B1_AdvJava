@@ -10,13 +10,12 @@ I want to get a better understanding of the coding process in general, but I als
 In-Class Java Coding Warm Up
 First class inheritance activity
 
-public class InheritanceTest {
-
-	public static void main(String[] args) {
-		Class2 test = new Class2();
-		test.printA();
+	public class InheritanceTest {
+		public static void main(String[] args) {
+			Class2 test = new Class2();
+			test.printA();
+		}
 	}
-}
 
 	public class Class1 {
 

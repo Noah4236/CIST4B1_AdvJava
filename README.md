@@ -11,25 +11,26 @@ In-Class Java Coding Warm Up
 First class inheritance activity
 
 public class InheritanceTest {
+
 	public static void main(String[] args) {
 		Class2 test = new Class2();
 		test.printA();
 	}
 }
 
-public class Class1 {
+	public class Class1 {
 
-	private int a;
-	public Class1() {
-		a = 10;
+		private int a;
+		public Class1() {
+			a = 10;
+		}
+		public void printA() {
+			System.out.println(a);
+		}
 	}
-	public void printA() {
-		System.out.println(a);
-	}
-}
 
-public class Class2 extends Class1{
-	public Class2() {
-		super();
+	public class Class2 extends Class1{
+		public Class2() {
+			super();
+		}
 	}
-}
